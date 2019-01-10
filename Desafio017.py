@@ -1,0 +1,5 @@
+cato = float(input('\nCateto Oposto: '))
+cata = float(input('Cateto Adjacente: '))
+h = (cato ** 2 + cata ** 2) ** (1/2)
+print('Hipotenusa: {:.2f}'.format(h))
+#math.hypot(cato, cata)
