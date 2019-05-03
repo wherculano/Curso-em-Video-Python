@@ -5,13 +5,13 @@ Faça também um programa que importe esse módulo e use algumas dessas funçõe
 
 Ex.:
     >>> moeda.metade(500)
-    '250.00'
+    250.0
     >>> moeda.dobro(500)
-    '1000.00'
+    1000.0
     >>> moeda.aumentar(500, 10)
-    '550.00'
+    550.0
     >>> moeda.diminuir(500, 13)
-    '435.00'
+    435.0
 """
 from Desafio107 import moeda
 

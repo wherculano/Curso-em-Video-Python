@@ -5,17 +5,23 @@ desenvolvida no Desafio108
 
 Ex:
     >>> moeda.metade(500, True)
-    250,00
+    'R$250,00'
     >>> moeda.metade(500, False)
     250.0
+    >>> moeda.dobro(500, True)
+    'R$1000,00'
     >>> moeda.dobro(500)
-    1000,00
+    1000.0
+    >>> moeda.aumentar(500, 10, True)
+    'R$550,00'
     >>> moeda.aumentar(500, 10)
-    550,00
+    550.0
+    >>> moeda.diminuir(500, 13, True)
+    'R$435,00'
     >>> moeda.diminuir(500, 13)
-    435,00
+    435.0
 """
-from Desafio107 import moeda
+from Desafio109 import moeda
 
 
 preco = float(input('Digite o preço: R$'))
