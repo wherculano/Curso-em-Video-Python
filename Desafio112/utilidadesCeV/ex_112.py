@@ -15,8 +15,8 @@ Ex:
     22% de redução:         R$663,00
     ----------------------------------
 """
-from Desafio112.utilidadesCeV import dados, moeda
-
+from Desafio112.utilidadesCeV import dados
+from Desafio112.utilidadesCeV.moedas import moeda
 
 preco = dados.leiaDinheiro('Digite o preço: R$')
 moeda.resumo(preco, 35, 22)
